@@ -1,0 +1,105 @@
+#title{
+    background-color: palevioletred;
+    color: white;
+}
+#footer{
+    text-align: center;
+    margin-top: 10px;padding: 10px 5px;
+}
+.footer__Icon>i{
+    margin: 15px;
+}
+.cta{
+    background-color: palevioletred;
+    text-align: center;
+    padding: 10%;
+   
+}
+.cta>h3{
+    font-family: "Montserrat-bold" ;
+    font-weight: bold;
+    color: white;
+}
+.cta>button{
+    margin-top: 10px;
+    margin-right: 5px;
+}
+.title__Image{
+    width: 50%;
+    transform: rotate(25deg);
+}
+
+h1 {
+    font-family: "Montserrat-black";
+    font-size: 3rem;
+    line-height: 1.5;
+    color: white;
+}
+.container-fluid{
+    padding: 3% 15%;
+}
+
+.navbar-brand
+{
+    font-family: "Ubuntu";
+    font-size: 2rem;
+    font-weight: bold;
+}
+h3{
+    font-family: "Montserrat-bold" ;
+    font-size: 2rem;
+}
+h2{
+    font-family: "Montserrat-bold" ;
+    font-size: 2rem;
+}
+p{
+    color: grey;
+}
+.feature-section{
+
+  padding:  2%;
+  margin: 5% 0% 5% 6%;
+  
+  text-align: center;
+}
+.icon{
+
+    color: rgb(175, 86, 101);
+    margin-bottom: 2px;
+}
+.icon:hover{
+    color: red;
+}
+.testimonials-section{
+    background-color: salmon;
+    text-align: center;
+    padding: 5%;
+    color: white;
+}
+.img-test{
+    border-radius: 100%;
+    width: 5%;
+}
+#press{
+    background-color: salmon;
+    text-align: center;
+}
+.press__Icons{
+    width: 10%;
+    margin: 0% 2% 5% 2%;
+}
+.section__Head{
+    text-align: center;
+    padding: 5%;
+}
+.section__Head>h2{
+    font-weight: bold;
+}
+@media (max-width:1028px){
+    .title__Image{
+        position: static;
+        transform:rotate(0);
+       
+    }
+}
